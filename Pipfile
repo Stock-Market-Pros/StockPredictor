@@ -5,10 +5,8 @@ name = "pypi"
 
 [packages]
 django = "*"
-yahoo-fin = "*"
-requests = "*"
-requests-html = "*"
-matplotlib = "*"
+djangorestframework = "*"
+django-rest-knox = "*"
 
 [dev-packages]
 

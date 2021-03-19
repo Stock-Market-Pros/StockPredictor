@@ -1,0 +1,35 @@
+{
+  "name": "stockpredictor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch --entry ./stockpredictor/frontend/src/index.js -o ./stockpredictor/frontend/static/frontend/",
+    "build": "webpack --mode production --entry ./stockpredictor/frontend/src/index.js -o ./stockpredictor/frontend/static/frontend/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stock-Market-Pros/StockPredictor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stock-Market-Pros/StockPredictor/issues"
+  },
+  "homepage": "https://github.com/Stock-Market-Pros/StockPredictor#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^5.27.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
